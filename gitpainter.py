@@ -1,5 +1,6 @@
 #-*- coding: UTF-8 -*-
-# Author: Davin Yu
+# Copyright 2017 Davin Yu. All rights reserved.
+# Distributed under the GNU General Public License v3.0 (GPLv3).
 
 from datetime import datetime, timedelta
 from time import sleep
@@ -26,9 +27,11 @@ def push_to(date, num):
         subprocess.call('git push origin master', shell=True)
         sleep(.5)
 
+# clear the shell
 def screen_clear():
     subprocess.call('clear', shell=True)
 
+# print the pattern
 def screen_print(list):
     print("Use w,s,a,d to control the pointer 'p', use j to select current location")
     print("Press q to finish your input")
