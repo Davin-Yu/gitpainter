@@ -20,7 +20,7 @@ Input day: 1
 How many times you want to commit for a day? 2
 ```
 The next step is to draw your own design pattern.  Use 'w' (up), 's' (down), 'a' (left), 'd' (right) to move the pointer('p'). Press 'j' to change the color in the current cell. Press 'q' to finish drawing. You may get something like,
-![](pic/Input.png)
+![](pic/InputPattern.png)
 
 Enter 'Y' to confirm your change. Wait for the commits finished and you will see the pattern in your GitHub.
 
