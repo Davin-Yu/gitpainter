@@ -60,12 +60,12 @@ def main():
     py = 0
     list[px][py] = 'p'
     stack = ' '
-    print('Find your target Github Contribution Pattern')
-    print('Input the date (e.g. 1995.8.26) of the top left corner')
+    print('Find the target area for your new Github Contribution Pattern')
+    print('Input the date of the top left corner of your target area')
     iyear = input("Input year: ")
     imonth = input("Input month: ")
     iday = input("Input day: ")
-    pushtime = input("How many times you want to push for a day?")
+    pushtime = input("How many times you want to commit for a day? ")
     while (ch != 'q'):
         screen_clear();
         screen_print(list);
